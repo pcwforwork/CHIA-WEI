@@ -1,9 +1,15 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 100px);
+}
+
 .header {
-  height: 500px;
+  height: 300px;
   background-position: center center;
   background-size: cover;
   position: relative;
-
+  margin-top: 56px;
+  background-image: url('/image/CrystalAloe_mockup.png');
 }
 .header::after{
   position: absolute;
@@ -13,10 +19,8 @@
   top: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.5;
-  
+  opacity: 0.7;
 }
-
 
 .sticky {
   position: fixed;
@@ -24,7 +28,9 @@
   width: 100%;
   z-index: 2;
 }
-
+.bg-dark {
+  background-color: rgba(0, 0, 0, .5);
+}
 .object-fit-cover{
   object-fit: cover;
 }
@@ -34,3 +40,13 @@
 .height-s5 {
   height: 360px;
 }
+
+.pattern_repeat {
+  background-image: url('/image/pattern/floor-tile.png');
+}
+
+.backdrop_blur {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
