@@ -9,7 +9,7 @@ html {
   background-size: cover;
   position: relative;
   margin-top: 56px;
-  background-image: url('/image/CrystalAloe_mockup.png');
+  background-image: url('./image/CrystalAloe_mockup.png');
 }
 .header::after{
   position: absolute;
