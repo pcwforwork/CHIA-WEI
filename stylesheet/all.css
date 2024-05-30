@@ -3,15 +3,14 @@ html {
   scroll-padding-top: var(--scroll-padding, 100px);
 }
 
-.header {
-  height: 300px;
+
+.blackCover {
+  height: 600px;
   background-position: center center;
   background-size: cover;
   position: relative;
-  margin-top: 56px;
-  /* background-image: url('/image/CrystalAloe_mockup.png'); */
 }
-.header::after{
+.blackCover::after{
   position: absolute;
   content: "";
   left: 0;
@@ -19,7 +18,7 @@ html {
   top: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .sticky {
