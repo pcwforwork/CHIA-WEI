@@ -9,7 +9,7 @@ html {
   background-size: cover;
   position: relative;
   margin-top: 56px;
-  background-image: url('./image/CrystalAloe_mockup.png');
+  /* background-image: url('/image/CrystalAloe_mockup.png'); */
 }
 .header::after{
   position: absolute;
@@ -20,7 +20,6 @@ html {
   bottom: 0;
   background-color: black;
   opacity: 0.7;
-  z-index: 2;
 }
 
 .sticky {
